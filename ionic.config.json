@@ -1,0 +1,8 @@
+{
+  "name": "Ilai's Weather App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "d7249762"
+}
