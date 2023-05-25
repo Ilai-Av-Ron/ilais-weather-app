@@ -17,7 +17,7 @@ This is a Weather App built with React and Ionic framework.
 - Select a city to view current weather information
 - Display temperature, description, humidity, and wind speed
 - Show a 4-day weather forecast with temperature and weather icons
-- Help stop global warming
+- Help stop global warming :)
 
 ### Prerequisites
 
