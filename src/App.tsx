@@ -11,7 +11,7 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { cloud, earth } from 'ionicons/icons'; // Replace with the desired icons for weather and donating
+import { cloud, earth } from 'ionicons/icons'; 
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 

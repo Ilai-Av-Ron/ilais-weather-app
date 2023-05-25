@@ -40,7 +40,7 @@ const Tab1: React.FC = () => {
   const handleCitySelection = (city: string) => {
     setSelectedCity(city);
     closeActionSheet();
-    setSelectedCityUrl(getCityUrl(city)); // Update the selected city URL
+    setSelectedCityUrl(getCityUrl(city)); 
   };
 
   const getCityUrl = (city: string) => {
@@ -130,10 +130,9 @@ const Tab1: React.FC = () => {
     const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     const currentDate = new Date();
   
-    // Create an array of dates for the next 7 days starting from tomorrow
     const calendarDates = Array.from({ length: 4 }, (_, index) => {
       const date = new Date();
-      date.setDate(currentDate.getDate() + index + 1); // Add 1 to start from tomorrow
+      date.setDate(currentDate.getDate() + index + 1); 
       return date;
     });
   
@@ -141,7 +140,6 @@ const Tab1: React.FC = () => {
       return (
         <div className="calendar">
           {calendarDates.map((date, index) => {
-            // Find the forecast data for the current date
             const forecastItem = forecastData.list.find((item: any) => {
               const forecastDate = new Date(item.dt * 1000);
               return forecastDate.getDate() === date.getDate();
@@ -149,7 +147,7 @@ const Tab1: React.FC = () => {
   
             if (forecastItem) {
               const temperature = convertKelvinToCelsius(forecastItem.main.temp);
-              const weatherIcon = forecastItem.weather[0].icon; // Use the icon code from the API
+              const weatherIcon = forecastItem.weather[0].icon; 
   
               return (
                 <div className="calendar-day" key={index}>
@@ -215,7 +213,6 @@ const Tab1: React.FC = () => {
               {weatherData.wind.speed} m/s
             </p>
             {renderCalendar()}
-            {/* Add more weather data as needed */}
           </div>
           
         )}

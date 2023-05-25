@@ -3,7 +3,7 @@
   }
 
   .weather-page {
-    --ion-background-color: #f5f5f5; /* Set your desired background color */
+    --ion-background-color: #f5f5f5; 
 }
   
   .selected-city {
@@ -50,8 +50,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap; /* Remove wrapping */
-    overflow-x: auto; /* Enable horizontal scrolling */
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
     margin-top: 20px;
   }
   
@@ -60,44 +60,44 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px; /* Reduce padding */
-    margin: 5px; /* Reduce margin */
+    padding: 10px; 
+    margin: 5px; 
     border-radius: 10px;
     background-color: #00a3e0;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
-    flex-shrink: 0; /* Prevent shrinking */
+    flex-shrink: 0; 
   }
   
   .temperature {
-    font-size: 20px; /* Reduce font size */
+    font-size: 20px; 
     font-weight: bold;
-    margin-top: 5px; /* Reduce margin */
+    margin-top: 5px; 
     text-align: center;
     color: #008080;
   }
   
   .temperature p {
-    margin: 2px 0; /* Reduce margin */
+    margin: 2px 0; 
   }
   
   .temperature-icon {
-    font-size: 28px; /* Reduce font size */
-    margin-bottom: 5px; /* Reduce margin */
+    font-size: 28px; 
+    margin-bottom: 5px; 
     color: #cd9a0f;
   }
   
   .calendar-date {
-    font-size: 24px; /* Reduce font size */
+    font-size: 24px; 
     font-weight: bold;
-    margin-bottom: 5px; /* Reduce margin */
+    margin-bottom: 5px; 
     text-align: center;
     color: #ffffff;
   }
   
   .calendar-day-of-week {
-    font-size: 18px; /* Reduce font size */
-    margin-bottom: 2px; /* Reduce margin */
+    font-size: 18px; 
+    margin-bottom: 2px; 
     text-align: center;
     color: #ffffff;
   }
