@@ -81,7 +81,7 @@ const Tab1: React.FC = () => {
       if (selectedCity) {
         try {
           const response = await axios.get(
-            `https://api.openweathermap.org/data/2.5/weather?q=${selectedCity}&appid=84690eb441e558ccde11163158ae8676`
+            `https://api.openweathermap.org/data/2.5/weather?q=${selectedCity}&appid={appID}`
           );
           setWeatherData(response.data);
         } catch (error) {
